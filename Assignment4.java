@@ -1,7 +1,7 @@
 /*
 Wrote a method countUnique that takes a List of integers as a parameter and returns the number of unique integer 
 values in the list.
-/*
+*/
 
 import java.util.*;
 
