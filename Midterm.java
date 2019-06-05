@@ -32,3 +32,15 @@ class Main {
     return modeVal;
     }
 }
+
+
+/*
+2: The output that would be produced by the method by the ArrayLists would be:
+[1,2,6,8]
+[10,20,30,60,50,40]
+[-4,1,9,16,25,36,49,64]
+
+3: The value that is returned for mystery3(6) is 6, and the value that would be returned for mystery3(17) would be about 9, 
+even though I'm pretty sure it would actually be 8.7, it's calling for an int, so I rounded.
+
+*/
