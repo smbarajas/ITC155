@@ -3,6 +3,8 @@ Wrote a modified version of the selection sort algorithm that selects the larges
 and moves it to the end of the array, instead of selecting the smallest element and moving it towards the beginning.
 */
 
+class Main {
+
 public static int[] sort(int[] list) {
 int i, j, maxNum, maxInde, temp = 0;
 for (i = list.length-1; i >= 0; i--) {
@@ -20,4 +22,5 @@ for (i = list.length-1; i >= 0; i--) {
         list[i] = list[maxInde];
         list[maxInde] = temp;
     }
+}    
 }
